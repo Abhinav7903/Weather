@@ -14,7 +14,7 @@ searchButton.addEventListener('click', function () {
         alert('Please enter a city name.');
     } else {
         // Fetch weather data from the OpenWeather API
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${apiKey}`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${apiKey}&units=metric`)
             .then(response => response.json())
             .then(data => {
                 // Handle and display weather data
