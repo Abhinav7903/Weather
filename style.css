@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the search container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Style for the search input */
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+/* Style for the search button */
+.search-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+    background-color: green;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+
+
+/* Style the container div as a card and center it */
+.show_res {
+    background-color: #ffffff; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a card-like effect */
+    padding: 20px; /* Spacing inside the card */
+    max-width: 400px; /* Maximum width of the card */
+    width: 100%; /* Make it expand to the container width */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 20px; /* Spacing above the card */
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center child elements horizontally */
+    text-align: center; /* Center text within the card */
+}
+
+/* Style specific elements within the card */
+.show_res h2 {
+    font-size: 24px; /* Header text size */
+    margin-bottom: 10px; /* Spacing below the header */
+}
+
+.show_res p {
+    font-size: 16px; /* Paragraph text size */
+    margin: 10px 0; /* Spacing between paragraphs */
+}
+
+
